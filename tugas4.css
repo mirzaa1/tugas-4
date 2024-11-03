@@ -19,7 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 0,8rem;
     background-color: #000131 ;
     border-bottom: 5px #15222C solid;
     position: fixed;
@@ -62,6 +62,7 @@ body{
 /* CSS ICON*/
 .menu {
 color: #ff0000;
+cursor: pointer;
 
 }
 /* CSS OUTLINE */
@@ -140,7 +141,7 @@ color: #ff0000;
 .about .about-tittle{
     justify-content: center;
     color: #ffffff;
-    font-size: 6rem;
+    font-size: 5rem;
     padding-top: 5rem;
     padding-left: 6rem;
 }
@@ -199,11 +200,11 @@ color: #ff0000;
 }
 
 .product-image{
-    margin-left: 6rem;
+    margin-left: 5rem;
 }
 
 .product-image img{
-    width: 350px;
+    width: 200px;
     border-radius: 10%;
     height: auto;
 }
@@ -253,7 +254,7 @@ color: #ff0000;
     border-collapse: collapse;
     background-color: #003a1f;
     box-shadow: 0 4px 8px rgb(4, 1, 47);
-    color: white;
+    color: rgb(245, 244, 244);
   }
   
   .price-table thead {
@@ -274,3 +275,13 @@ color: #ff0000;
     font-size: 1rem;
     color: #ffffff;
   }
+  /*CSSLINK*/
+
+  a:link {
+    color: #110000;
+    text-align: center;
+    padding: 10px
+    
+
+  }
+  
